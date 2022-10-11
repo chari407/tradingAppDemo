@@ -1,8 +1,11 @@
 package com.db.tradingAppDemo.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * This is implemented in a third-party library and we cannot change it
  */
+@Service
 public class Algo {
     public void doAlgo() {
         System.out.println("doAlgo");
